@@ -1,0 +1,180 @@
+header {
+    grid-area: header;
+    background-color:  rgb(63, 82, 82);
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+    
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    font-family: "Jersey 15", sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+.hero {
+    grid-area: hero;
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 300px;
+    width: 200px;
+    height: 400px;
+    background-image: url(img/cropped-Cusquena-roja.jpg);
+}
+
+.hero h2 {
+    margin: 0;
+}
+
+main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+        "content"
+        "images";
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.content h3 {
+    border-bottom: dotted;
+    padding-bottom: 10px;
+    border-top: dotted;
+    padding-top: 10px;
+}
+h1{
+    color: black;
+}
+h3{
+    font-family: "Jersey 15", sans-serif;
+    font-size: 40px;
+}
+
+.images {
+    grid-area: images;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-top: dotted;
+    padding-top: 20px;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #7690aa;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 300px;
+    
+}
+
+.social a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#tittle{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#tittle > ul{
+    display: flex;
+    padding-right: 100px;
+    
+}
+
+li{
+    padding: 5px;
+    margin-left: 100px;
+    list-style: none;
+    border:1px solid black;
+    border-radius: 10px;
+    color: black;
+    
+}
+
+li:hover{
+    background-color: rgb(39, 39, 39);
+    cursor: pointer;
+    color: red;
+    border: 1px solid red;
+    transition-property: background-color;
+    transition-duration:700ms;
+}
+a{
+    text-decoration: none;
+}
+li img{
+    padding-right: 3px;
+    transform: translate(0, 2px);
+}
+.imagenes1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.imagenes1 img{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.imagen-p{
+    text-align: center;
+}
+
+
+.imagen img:hover {
+    transform: scale(1.1);
+}
+
+#redes{
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+}
+
+.redesimg img{
+    border-radius: 35px;
+    margin: 5px;
+}
+
+li img{
+    padding-right: 3px;
+    transform: translate(0, 2px);
+}
+
+
+body{
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+

@@ -1,0 +1,107 @@
+#tittle{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#tittle > ul{
+    display: flex;
+    padding-right: 100px;
+    
+}
+
+
+li{
+    padding: 5px;
+    margin-left: 100px;
+    list-style: none;
+    border:1px solid black;
+    border-radius: 10px;
+    
+}
+
+
+li:hover{
+    background-color: rgb(39, 39, 39);
+    cursor: pointer;
+    color: red;
+    border: 1px solid red;
+    transition-property: background-color;
+    transition-duration:700ms;
+}
+
+
+
+#contenido{
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    margin-top: 20px;
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+
+body{
+    background-color:rgb(63, 82, 82);
+}
+
+
+
+.imagenes1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.imagenes1 img{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.imagen-p{
+    text-align: center;
+}
+
+
+.imagen img:hover {
+    transform: scale(1.1);
+
+}
+
+#redes{
+    text-align: center;
+}
+
+.redesimg img{
+    border-radius: 35px;
+    margin: 5px;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li img{
+    padding-right: 3px;
+    transform: translate(0, 2px);
+}
+
+p{
+    font-family: "Reddit Sans", sans-serif;
+}
+
+h1{
+    font-family: "Jersey 15", sans-serif;
+    font-size: 65px;
+}
+
+
+h3{
+    font-family: "Jersey 15", sans-serif;
+    font-size: 30px;
+}

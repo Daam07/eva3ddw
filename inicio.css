@@ -1,0 +1,73 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#tittle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#tittle > ul{
+    display: flex;
+    padding-right: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    font-family: "Jersey 15", sans-serif;
+    font-size: 65px;
+    
+}
+
+li{
+    padding: 5px;
+    margin-left: 100px;
+    list-style: none;
+    border:2px solid black;
+    border-radius: 10px;
+}
+
+
+li:hover{
+    background-color: rgb(39, 39, 39);
+    cursor: pointer;
+    color: red;
+    border: 1px solid red;
+    transition-property: background-color;
+    transition-duration:700ms;
+}
+
+.redesimg img{
+    border-radius: 35px;
+    margin: 5px;
+    
+}
+
+
+
+.img1{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+    filter: brightness(0.7)
+}
+
+li img{
+    padding-right: 3px;
+    transform: translate(0, 2px);
+}

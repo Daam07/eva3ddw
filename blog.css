@@ -1,0 +1,127 @@
+
+#tittle{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#tittle > ul{
+    display: flex;
+    padding-right: 100px;
+    
+}
+
+h1{
+    font-family: "Jersey 15", sans-serif;
+    font-size: 65px;
+}
+
+li{
+    padding: 5px;
+    margin-left: 100px;
+    list-style: none;
+    border:1px solid black;
+    border-radius: 10px;
+}
+
+
+li:hover{
+    background-color: rgb(39, 39, 39);
+    cursor: pointer;
+    color: red;
+    border: 1px solid red;
+    transition-property: background-color;
+    transition-duration:700ms;
+    
+}
+
+#contenidopadre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    height: auto;
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+
+p{
+    padding-left: 10px;
+    
+}
+
+body{
+    background-color:rgb(63, 82, 82);
+}
+
+
+
+.img2{
+    float: right;
+    padding-right: 16px;
+    padding-left: 10px;
+    padding-bottom: 18px;
+   
+    
+}
+
+
+.img3{
+    float: left;
+    padding-left: 15px;
+    padding-right: 19px;
+    padding-bottom: 14px;
+    padding-top: 10px;
+}
+
+
+
+.contenedor-imagen{
+    max-width: 900px; 
+    margin: 0 auto;
+   
+}
+
+.contenedor-imagen img {
+    max-width: 100%;
+    display: block; 
+    margin: 0auto;
+}
+
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li img{
+    padding-right: 3px;
+    transform: translate(0, 2px);
+}
+
+h3{
+    font-family: "Jersey 15", sans-serif;
+    font-size: 30px;
+}
+h1{
+    font-family: "Jersey 15", sans-serif;
+    font-size: 65px;
+}
+
+
+.redesimg img{
+    border-radius: 35px;
+    margin: 5px;
+}
+
+#redes{text-align: center;}
